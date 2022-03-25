@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        *{
+            font-family: verdana;
+            /*
+            Medidas Absolutas
+            cm, mm, in(polegada), px, pt, pc
+
+            Medida Relativas
+            em(Altura do M maiusculo) Mais ultilizado, ex(Altura X da fonte), rem, vw, vh, % 
+
+            16px = 1em
+            */
+            font-size: 1rem;
+
+        }
+        h1{
+
+            /*shorthand font
+            - font-style -> font-weight -> font-size -> font-family
+
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+            */
+            font: italic bolder 3em 'Verdana';
+        }
+        h2{
+            font: bold 2em Arial;
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus maxime eum, facere quod quos debitis, odit quidem aut molestiae minus iure vel molestias error suscipit, rerum labore expedita nam excepturi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias distinctio amet voluptates, ullam commodi nulla est animi, reprehenderit delectus iusto cumque cum debitis ipsam mollitia quae. Magnam blanditiis odio asperiores. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae cupiditate consequatur quos, deleniti debitis facilis, recusandae porro sequi, iure similique odio distinctio. Recusandae, eius impedit similique sit beatae eligendi voluptatem.</p>
+    <h2>Subtitulo</h2>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi minus deleniti sequi odio nihil consequuntur. Doloremque necessitatibus, accusantium consequatur dolore illo nam, quis, quaerat nisi praesentium maiores assumenda ratione dolorem? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis unde voluptatum est laborum necessitatibus nisi, quae quibusdam. Aliquam cum corrupti illum accusamus? Eveniet dolores ad eligendi ullam similique consequatur atque.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam explicabo in rem dignissimos provident ea totam magnam veniam, quam iste sunt aut, maiores impedit at, vero dolore blanditiis consequuntur perspiciatis!</p>
+</body>
+</html>

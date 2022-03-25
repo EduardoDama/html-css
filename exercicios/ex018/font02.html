@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usando fontes externas</title>
+    <style>
+        @font-face {
+            font-family: hear;
+            src: url(fonts/Heart^Freaking^Tastic.otf) format('opentype'), url(fonts/Heart^Freaking^Tastic.ttf) format('truetype')
+        }
+        /*
+         Tipos de format()
+            - Opentype(otf)
+            - truetype(ttf)
+            - embedded-opentype
+            - truetype-aat(apple advanced typography)
+            - svg
+            
+         */
+        body{
+            font-family: sans-serif;
+        }
+        h1{
+            font-family: hear;
+        }
+    </style>
+</head>
+<body>
+    <h1>Título</h1>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique molestias placeat rem saepe, eaque libero, tenetur optio distinctio eos ad incidunt odit sed repellendus laboriosam atque reprehenderit nulla eius omnis?</p>
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links Copia</title>
+    <style>
+        body{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        ul{
+            list-style: none;
+        }
+        a{
+            text-decoration: none;
+            color: rgb(85, 85, 85);
+            font-weight: bold;
+        }
+        a:hover{
+            text-decoration: underline;
+            color:rgb(44, 44, 44);
+        }
+        a:active{
+            color: rgb(110, 50, 0);
+        }
+        a:hover::after{
+            content: '<=';
+            color: rgba(85, 85, 85, 0.219);
+            display: inline-block;
+        }
+        a:hover::before{
+            content: '=>';
+            color: rgba(85, 85, 85, 0.219);
+            display: inline-block;
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Personalizando links</h1>
+        <ul>
+            <li><a href="https://gustavoguanabara.github.io" target="_blank">Repositorio Github</a></li>
+            <li><a href="https://youtube.com/cursoemvideo" target="_blank">Canal Youtube</a></li>
+            <li><a href="https://www.cursoemvideo.com" target="_blank">Site do Curso em vídeo</a></li>
+            <li><a href="https://adobe.com" target="_blank">Site do Adobe</a></li>
+        </ul>
+    </div>
+</body>
+</html>

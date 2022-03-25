@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+*{
+    font-family: Arial, Helvetica;
+    font-size: 20px;
+}
+h1{
+    font-size: 45px;
+    text-align: center;
+    background-color: rgb(66, 66, 66);
+    color: white;
+    
+}
+p{
+    font-size: 25px;
+
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+
+}
+
+div{
+    background-color: white;
+    width: 800px;
+    height: 60px;
+    padding: 2px;
+    padding-bottom: 40px;
+    padding-left: 25px;
+    padding-right: 25px;
+    text-align: justify;
+    border-radius: 25px;
+}

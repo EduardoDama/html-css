@@ -1,0 +1,27 @@
+*{
+    background-color: #272626;
+}
+
+h1{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 45px;
+    text-align: center;
+}
+
+a{
+    color: white;
+    font-family: Arial;
+    text-decoration: none;
+}
+p{
+    text-align: center;
+}
+a:hover{
+    text-decoration: underline;
+    color: rgb(255, 102, 0);
+}
+main{
+    margin: auto;
+    width: 450px;
+}

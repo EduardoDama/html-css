@@ -1,0 +1,176 @@
+@charset "UTF-8";
+@font-face {
+    font-family: bugdroid;
+    src: url(fontes/idroid.otf);
+}
+@font-face {
+    font-family: Bebas Neue;
+    src: url(fontes/BebasNeue-Regular.otf);
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    background-color: #EBE5C5;
+}
+header{
+    text-align: center;
+    background-image: linear-gradient(to top, #063D1E 20%, #2FA766);
+    padding: 2px;
+    color: white;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.466);
+}
+header > h1{
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+    font-size: 60px;
+    font-weight: normal;
+
+}
+header > p{
+    font-size: 20px;
+}
+header > nav{
+    text-align: left;
+    padding-bottom: 5px;
+    background-color: #063D1E;
+
+    margin-top: 4em;
+}
+header nav a{
+    text-decoration: none;
+    color: #75fcb1;
+    margin-top: 10px;
+    padding: 7px;
+   
+    font-weight: bold;
+    text-shadow: none;
+
+}
+header nav a:hover{
+    background-color: #2C9E5F;
+    color: #1B3D1E;
+    border-radius: 5px;
+    font-weight: bold;
+}
+main{
+    margin: auto;
+    background-color: white;
+    font-size: 16px;
+    padding: 15px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.336);
+    min-width: 300px;
+    max-width: 800px;
+
+}
+main h1{
+    font-size: 2em;
+    color: #063D1E;
+    font-weight: normal;
+}
+main h2, h1{
+    font-family: bugdroid;
+    color: #1E693F;
+    font-weight: normal;
+}
+main section article h2{
+    background-image: linear-gradient(to right, #83E1AD, white);
+    padding-left: 10px;
+}
+main section article  p{
+    line-height: 2.5em;
+}
+#bugdroid{
+    display: block;
+    margin: auto;
+}
+#video{
+    display: block;
+    margin: auto;
+    width: 800px;
+    height: 400px;
+    width: 100%;
+}
+#responsivo video, img{
+    width: 100%;
+}
+#maisconteudo{
+    margin: auto;
+    background-color: #83E1AD;
+    border-radius: 10px;
+    padding-bottom: 5px;
+    margin-top: 50px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.336);
+}
+#titulor{
+    background-color: #1A5C37;
+    margin-top: 0px;
+    max-width: 800px;
+    min-width: 300px;
+    color: white;
+    padding: 7px;
+    margin: 0px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+p{
+    text-indent: 25px;
+}
+aside section p{
+    padding-left: 10px;
+
+}
+footer{
+    background-color: #063D1E;
+    color: white;
+    text-align: center;
+    margin-top: 1.5em;
+}
+footer > p{
+    margin: 0px;
+    padding: 3px;
+}
+#primeira-parte{
+    display: inline-block;
+}
+#segunda-parte{
+    display: inline-block;
+    margin-left: 150px;
+}
+
+ul{
+    list-style-type: none;
+}
+li::before{
+    content: "✔";
+}
+span{
+    color: #1A5C37;
+    font-weight: bold;
+}
+.link{
+    font-weight: bold;
+    background-color: #83E1AD;
+}
+.link > a{
+    text-decoration: none;
+    color: #063D1E;
+    padding: 7px;
+}
+.link:hover > a{
+    text-decoration: underline;
+    color: #10753c;
+}
+.link::after{
+    content: ' 🔗';
+}
+div{
+    max-width: 800px;
+    min-width: 300px;
+}

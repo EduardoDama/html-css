@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML5</title>
+</head>
+<body>
+    <h1>Imagens dinâmicas</h1>
+    <p>Para melhor compreeção teste esse site em diversos tamanhos.</p>
+    <picture>
+        <source media="(max-width: 620px)" srcset="imagens/foto-p.png" width="390px" type="image/png">
+        <source media="(max-width: 750px)" srcset="imagens/foto-pl.png" width="720px" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="imagem flexivel">
+    </picture>
+    <h1>Áudio</h1>
+    <p>Aprenderemos a como reproduzir áudios</p>
+    <audio preload="metadata"  controls loop>
+        <source src="musica/till-i-let-go.mp3" type="audio/mpeg">
+        <p>Infelizmente tivemos um imprevisto o seu navegador não consegue reproduzir os áudios, entretanto <a href="musica/till-i-let-go.mp3" download="musica/till-i-let-go.mp3">clique aqui para efetuar o download do mp3</a></p>
+    </audio>
+</body>
+</html>

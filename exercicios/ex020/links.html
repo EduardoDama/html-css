@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        /*
+            SELETORES PERSONALIZADOS
+            #   = id
+            .   = class
+            :   = pseudo-class
+            ::  = pseudo-element
+            >   = children
+        */
+        body{
+            font-family: verdana;
+        }
+        a{
+            text-decoration: none;
+            font-weight: bold;
+            color: rgb(85, 85, 85);
+        }
+        a:hover{
+            text-decoration: underline;
+            color: rgb(37, 37, 37);
+        }
+        a:active{
+            color: rgb(170, 68, 0);
+        }
+        a:hover::after{
+            content: " <=";
+            display: inline-block;
+            color: rgba(85, 85, 85, 0.219);
+            text-decoration: none;
+        }
+        a:hover::before{
+            content: "=> ";
+            color: rgba(85, 85, 85, 0.219);
+            text-decoration: none;
+            display: inline-block;
+        }
+        ul{
+            list-style: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li><a target="_blank" href="https://gustavoguanabara.github.io">Repositorio Github</a></li>
+        <li><a target="_blank" href="https://youtube.com/cursoemvideo" class="especial">Canal do Youtube</a></li>
+        <li><a target="_blank" href="https://www.cursoemvideo.com">Site do Curso em vídeo</a></li>
+        <li><a target="_blank" href="https://adobe.com" class="especial">Site do Adobe</a></li>
+    </ul>
+
+</body>
+</html>
