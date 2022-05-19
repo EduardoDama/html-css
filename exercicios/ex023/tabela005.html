@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercícios de Tabela</title>
+
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            width: 650px;         
+            border-collapse: collapse;   
+        }
+        td, th{
+            border: 1px solid black;
+            padding: 1em;
+        }
+        caption{
+            padding: 0.5em;
+            font-weight: bolder;
+            font-size: 1.5em;
+        }
+        .amarelo{
+            background-color: yellow;
+        }
+        .vermelho{
+            background-color: red;
+        }
+    </style>
+
+</head>
+<body>
+    <h1>Exercícios de Tabela</h1>
+    <table>
+        <colgroup>
+            <col class="amarelo" span="2">
+            <col class="vermelho" span="2">
+        </colgroup>
+        <caption>
+            Cadastro
+        </caption>
+        <thead>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Ana Maria</td>
+                <td>F</td>
+                <td>25</td>
+                <td>Jornalista</td>
+            </tr>
+            <tr>
+                <td>Eduardo</td>
+                <td>M</td>
+                <td>14</td>
+                <td>Estudante</td>
+            </tr>
+            <tr>
+                <td>Fernanda</td>
+                <td>F</td>
+                <td>46</td>
+                <td>Professora</td>
+            </tr>
+            <tr>
+                <td>Milson</td>
+                <td>M</td>
+                <td>53</td>
+                <td>Professor</td>
+            </tr>
+            <tr>
+                <td>Margarida</td>
+                <td>F</td>
+                <td>76</td>
+                <td>Aposentada</td>
+            </tr>
+            <tr>
+                <td>João</td>
+                <td>M</td>
+                <td>13</td>
+                <td>Estudante</td>
+            </tr>
+            <tr>
+                <td>Creuza</td>
+                <td>F</td>
+                <td>34</td>
+                <td>Advogada</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
