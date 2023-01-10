@@ -17,7 +17,5 @@ main{
 h1{
     font-size: 500%;
     color: white;
-}
-input{
-    visibility:hidden
+    transition-duration: 2s;
 }
